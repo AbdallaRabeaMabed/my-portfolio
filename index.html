@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jane Doe - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Abdalla Rabea Mabed
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          jdoe@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://th.bing.com/th/id/R.a10da51ce4676a0af8bfe2cc48fadcb2?rik=vhS%2bMjfTp%2fh1Pg&pid=ImgRaw&r=0" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Abdalla Rabea! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            I am a full stack developer with 2 years of experience in both application and presentation layers.
+            I have worked on applications and microservices deployed on IBM Cloud. 
+            I am an avid user of IBM Watson Services and have worked on Watson Assistant, NLU, Sentiment analyzer to name a few.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+        <div class="skill">
+            <img src="https://th.bing.com/th/id/R.6a2208d38b81f26eb5d6f40f4b0ec77e?rik=h9eRGoTnw80biw&pid=ImgRaw&r=0"/>
+            <h6>CSS</h6>
+            <p>2 years experience</p>
+        </div> 
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+        <div class="skill">
+            <img src="https://th.bing.com/th/id/R.7494e83354e2662240d06630cc31f08d?rik=9tIRLZpYS9oTfQ&pid=ImgRaw&r=0"/>
+            <h6>Python</h6>
+            <p>3 years experience</p>
+        </div>
+        <div class="skill">
+            <img src="https://th.bing.com/th/id/R.4dfe01148ebce3a9de8ab55279b0b4bc?rik=Cb%2f46GSGyzIMJA&pid=ImgRaw&r=0"/>
+            <h6>Nodejs</h6>
+            <p>3 years experience</p>
+        </div> 
+        <div class="skill">
+            <img src="https://th.bing.com/th/id/R.360a0ef4666dcbbd62d979e7100b4a6d?rik=YHczg8NCXn55eQ&pid=ImgRaw&r=0"/>
+            <h6>Reatjs</h6>
+            <p>3 years experience</p>
+        </div> 
+        
+
+        
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>E-commerece</h3>
+            <ul>
+              <li>Developed an e-commerce website for a local brand</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Movies recommendations</h3>
+            <ul>
+              <li>Developed a website for people to share their reviews and recommendations about movies</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Inflation Price changing</h3>
+            <ul>
+              <li>a website to provide people with the new prices of products given changing in market and economics due to Inflation</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Abdalla Rabea’s ability to seamlessly integrate front-end and back-end technologies is unparalleled. His innovative solutions and dedication to continuous learning make him an invaluable asset to any development team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Abdalla Rabea consistently delivers high-quality code and demonstrates exceptional problem-solving skills. His expertise in both client-side and server-side development ensures robust and scalable web applications.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Abdalla Rabea’s proficiency in modern frameworks and tools, combined with his collaborative spirit, drives project success. His commitment to best practices and user-centric design sets him apart as a top-tier full-stack developer.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for leaving a Recommendation</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
